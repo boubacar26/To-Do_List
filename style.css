@@ -1,0 +1,63 @@
+body{
+    background-color: #afaeb5;
+}
+
+#note {
+    width: 50%;
+    height: 55px;
+}
+
+.d-flex{
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    border: 1px solid black;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+}
+
+.toDo{
+    background-color: red;
+    margin-bottom: 2%;
+}
+
+.doing{
+    background-color: yellow;
+    margin-bottom: 2%;
+}
+
+.done{
+    background-color: green;
+    margin-bottom: 2%;
+}
+
+#listeNote {
+    width: 52%;
+    margin: 1% auto;
+}
+
+span{
+    margin-right: 1%;
+}
+
+
+/* Partie Responsive */
+
+@media screen and (max-width: 768px) {
+    .d-flex{
+        justify-content: start;
+    }
+
+    #note {
+        width: 90%;
+    }
+
+    #listeNote {
+        width: 97%;
+        margin: 2% 0;
+    }
+}
